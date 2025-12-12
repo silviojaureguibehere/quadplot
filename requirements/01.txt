@@ -1,0 +1,19 @@
+Ask the user to enter the values of the coefficients:
+- a
+- b
+- c
+
+for the quadratic function:
+
+    a * x^2 + b * x + c
+
+Then perform the following tasks:
+
+1. Calculate:
+   - The roots (real or complex)
+   - The vertex of the parabola
+
+2. Display the quadratic function in three different forms:
+   - Polynomial form: a*x^2 + b*x + c
+   - Factored form: a(x - r1)(x - r2), if factorization is possible
+   - Canonical (vertex) form: (x - h)^2 + k
