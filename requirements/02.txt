@@ -12,7 +12,7 @@ Whith private variables
 - _root2
 
 Functions
-- __init__(self, a, b, c) setting a, b, c to 1
+- __init__(self, a, b, c)
 - polinomicForm() returning a string
 - canonicalForm() returning a string
 - factoredForm() returning a string or empty
@@ -23,6 +23,9 @@ Doc support: https://www.geeksforgeeks.org/python/python-classes-and-objects/
 - creates a couple of Quadratic instances and check if three forms methods return what is expected
 
 Doc support: https://www.dataquest.io/blog/unit-tests-python/
+
+run
+python -m unittest -s tests
 
 3- Modify the quadplot.py file to use the Quadratic class
 Instead of making calculations in the quadplot.py file, create a Quadratic object to calculate and print results
